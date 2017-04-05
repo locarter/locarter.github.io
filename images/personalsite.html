@@ -1,0 +1,439 @@
+<style type="text/css">
+html, 
+body {
+height: 100%;
+}
+
+body {
+background-image: url(blue.jpg);
+background-repeat: repeat;
+background-size: 100% 100%;
+}
+</style>
+
+</head>
+
+<body>
+
+
+<img src ="name.png" width = "1000" height = "150" style = "float: center; margin-left: 325px;"> 
+
+<p class="search" style = "float: right; margin-top: 15px;margin-right: 150px;">
+    <label><img src = "search.png" width = "15" height = "15"> </label>
+    <input name="search" type="text" class="txt" />
+    <input name="search-btn" type="submit" class="btn" value="SEARCH" />
+
+<html>
+
+<script>
+function openCity(evt, cityName) {
+    // Declare all variables
+    var i, tabcontent, tablinks;
+
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the current tab, and add an "active" class to the button that opened the tab
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+document.getElementById("defaultOpen").click();
+</script>
+
+
+<style>
+div.tab {
+    overflow: hidden;
+    border: 0px solid #ccc;
+    background-color:;
+	float: right;
+	margin-right:100px;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 0px solid #ccc;
+    border-top: none;
+}
+
+
+</style>
+
+
+
+<div class="tab">
+ <button class="tablinks" onclick="openCity(event, 'Home')" id="defaultOpen">Home</button>
+  <button class="tablinks" onclick="openCity(event, 'About Me')">About Me</button>
+  <button class="tablinks" onclick="openCity(event, 'Experience')">Experience</button>
+ <button class="tablinks" onclick="openCity(event, 'Contact')">Contact</button>
+</div>
+
+<div id="Home" class="tabcontent">
+<br><br>
+  <h1 style = "margin-left: 200px;"> WELCOME! </h1>
+<p>
+<img src= "logan.jpg"width = "20%" height = "50%" style="float: left; margin-left: 200px;">
+<br>
+<pre style="font-size:20px; float: left; margin-left:20px; margin-top: -50px;">
+I created this site to display tell people a 
+little but more about me. This is a one stop
+site that allows you to see everything from 
+my professional experience to my social media
+pages.
+
+This page also acts as an example of some of
+the work I am able to do. Everything in this
+page was created by me. I hope it shows that I 
+have a strong understanding of HTML. 
+
+This page has many different elements.You can 
+learn more about my life and interests on the 
+about me page. My work experience and my 
+relevant skills can be found on the experience page. 
+
+</pre>
+<pre style="font-size:20px; float: left; margin-left:200px; margin-top:-50px;">
+
+Please feel free to explore the page! And if you have any questions
+do not hesitate to contact me through email or any of the other forms
+of contact listed on this site.
+</pre>
+</p>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<hr width = 50%>
+<center>
+<a href ="https://www.facebook.com/logan.carter.165"target ="_blank"><img src = "facebook.png" width = "50" height = "50" hspace ="20" > </a>
+<a href ="https://www.instagram.com/logancarter48/?hl=en"target ="_blank"><img src = "instagram.png"width = "50" height = "50" hspace ="20"> </a>
+<a href ="https://www.linkedin.com/in/logan-carter-071309114/"target ="_blank"><img src = "linkedin.png"width = "50" height = "50" hspace ="20"> </a>
+</center>
+</div>
+
+<div id="About Me" class="tabcontent">
+<br>
+<h1 style = "margin-left: 200px"> ABOUT ME </h1>
+
+<p>
+<img src = "logan2.jpg" width = "500" height = "400"style = "float: right; margin-top:150px; margin-right: 150px;">
+
+
+
+
+
+<pre style="font-size:23px; margin-left: 200px; margin-top:-30px;">
+
+Hello!
+My name is Logan Carter. I am currently attending California State University 
+Monterey Bay.I am now on my 4th and final year and will be graduating in May 
+of 2017. I am originally from San Jose, California where I attended Willow 
+Glen High School from 2009-2013. After high school, I moved to Monterey, 
+California where I attended college.
+
+Outside of school I enjoy to spend 
+a lot of time with friends and 
+family. I am an avid sports fan, and 
+my favorite teams are the Seattle 
+Seahawks and the San Francisco 
+Giants. 
+
+I also like to spend my free time 
+outside when I can. I play a lot of 
+disc golf and enjoy riding my bike 
+or taking a trip to the beach.  
+
+At my university, I majored in 
+Business Administration with a 
+concentration in Information 
+Systems. Below is a table with more 
+information regarding my education.  
+
+</pre>
+
+
+<br><br><br>
+<center>
+<table border = "3">
+<tr height = "50" style="font-size:20px;" >
+<th align = center > Website</th>
+<th align = center > School Name</th>
+<th align = center > Degree</th>
+<th align = center > GPA</th>
+<th align = center > Location</th>
+
+
+</tr>
+
+<tr height = "50" style="font-size:20px;">
+<td> <a href = "http://www.csumb.edu"> <img src = "csumb.jpeg"width = "50" height = "50" hspace ="20"> </a> </td>
+<td> California State University Monterey Bay</td>
+<td> Bachelors of Science in Business Administration</td>
+<td> <center> 3.73</center></td>
+<td> Seaside, California</td>
+
+</tr>
+
+<tr height = "50" style="font-size:20px;">
+<td> <a href = "http://sjusd.org/willow-glen-high/"> <img src = "willowglen.jpg"width = "50" height = "50" hspace ="20"></td>
+<td align = "center"> Willow Glen High School</td>
+<td align = "center"> High School Diploma</td>
+<td> <center> 4.2</center></td>
+<td> San Jose, California</td>
+
+</tr>
+
+</table>
+</center>
+<br><br><br>
+<pre style="font-size:23px; margin-left: 150px">
+Please keep exploring this website to learn more 
+about my skills and experience!
+</pre>
+</p>
+
+<br>
+<br>
+
+<br><br>
+<hr width = 50%>
+<center>
+<a href ="https://www.facebook.com/logan.carter.165"target ="_blank"><img src = "facebook.png" width = "50" height = "50" hspace ="20" > </a>
+<a href ="https://www.instagram.com/logancarter48/?hl=en"target ="_blank"><img src = "instagram.png"width = "50" height = "50" hspace ="20"> </a>
+<a href ="https://www.linkedin.com/in/logan-carter-071309114/"target ="_blank"><img src = "linkedin.png"width = "50" height = "50" hspace ="20"> </a>
+</center>
+
+</div>
+
+<div id="Experience" class="tabcontent">
+<br>
+<h1 style = "margin-left: 200px"> Work Experience </h1>
+<pre align = "center" style="font-size:23px;">
+<i>Below you can find a table that outlines the work experience that I have.</i>
+</pre>
+
+
+<center>
+<table border = "4">
+<tr height = "50" style="font-size:20px;" >
+
+<th align = center> Title </th>
+<th align = center >Company Name</th>
+<th align = center >Location</th>
+<th align = center >Contact</th>
+<th align = center >Years Worked</th>
+<th align = center >Website</th>
+
+</tr>
+
+<tr height = "50" style="font-size:20px;">
+<td> Microsoft Excel Tutor </td>
+<td>Cooperative Learning Center</td>
+<td>Seaside, California</td>
+<td> <center> (831) 222-2222 </center></td>
+<td>2016-Present</td>
+<td> <a href = "http://www.csumb.edu/clc" target = "_blank"> website </a> </td>
+</tr>
+
+<tr height = "50" style="font-size:20px;">
+<td align = center> Barista </td>
+<td align = "center"> Sodexo</td>
+<td>Seaside, California</td>
+<td> <center> (831) 245-6789 </center></td>
+<td> 2015-Present</td>
+<td> <a href = "http://sodexo.com" target = "_blank"> website</td>
+</tr>
+
+<tr height = "50" style="font-size:20px;">
+<td align = center> Sales Associate </td>
+<td align = "center"> Sports Authority</td>
+<td align = "center"> San Jose, California</td>
+<td> <center> N/A </center></td>
+<td> 2014-2015</td>
+<td> <a href = "http://sportsauthority.com" target = "_blank"> website</td>
+</tr>
+
+<tr height = "50" style="font-size:20px;">
+<td align = center> Server </td>
+<td align = "center"> The Party Helpers</td>
+<td align = "center"> San Jose, California</td>
+<td> <center> (408) 245-6789 </center></td>
+<td> 2012-2013</td>
+<td> <a href = "http://thepartyhelpers.com" target = "_blank"> website</td>
+</tr>
+
+</table>
+</center>
+<br> <br>
+<h1 style = "margin-left: 200px"> PROFESSIONAL AND TECHNICAL SKILLS</h1>
+<pre align = "left" style="font-size:23px; margin-left: 200px;">
+<i>Below is a list of technical and profesional skills.They are broken up 
+into three categories: Skills that I consider myself to know at an 
+advanced level, skills that I know at a beginner or intermediate level, 
+and other relevant skills I have.</I>
+
+</pre>
+
+<h2 style = "margin-left: 200px"> Advanced Level </h2>
+
+<center>
+<table style="width:50%" border = "0">
+
+<tr height = "200">
+
+<td  align = "center"> <img src = "excel.jpg" width = "200" height = "175" > </a> </td>
+<td align = "center"><img src = "sql.png"width = "200" height = "200"> </a> </td>
+
+</tr>
+<tr height = "50">
+
+<td align = "center"></td>
+<td align = "CENTER"></td>
+
+</tr>
+
+<tr height = "50">
+
+<td align = "center"> <img src = "tableau.png"width = "200" height = "200"> </a> </td>
+<td align = "center"><img src = "sas.png" width = "200" height = "200" > </a> </td>
+
+</tr>
+
+</table>
+</center>
+<br><br>
+
+<h2 style = "margin-left: 200px"> Beginner/Intermediate Level </h2>
+<center>
+<table style="width:50%" border = "0">
+
+<tr height = "200">
+
+<td  align = "center"> <img src = "html.jpg" width = "200" height = "175" > </a> </td>
+<td align = "center"><img src = "python.jpg"width = "200" height = "200"> </a> </td>
+
+</tr>
+
+
+</table>
+</center>
+
+<br><br>
+
+<h2 style = "margin-left: 200px"> Other Skills </h2>
+
+<div style="float: left; width: 50%; margin-left: 340px">
+<ul>
+<li style="font-size:23px;">Windows and Mac operating systems</li>
+<br>
+<li style="font-size:23px;">Relational Databases</li>
+<br>
+<li style="font-size:23px;">Microsoft Office Applications</li>
+</ul>
+</div>
+<div style="float: right; width: 50%; margin-top: -129px;margin-right: -75px;">
+<li style="font-size:23px;">Finance/Accounting</li>
+<br>
+<li style="font-size:23px;">Some Spanish language</li>
+<br>
+<li style="font-size:23px;">Strong People Skills</li>
+</ul>
+</div>
+</center>
+<br><br><br><br><br><br><br><br><br><br><br>
+<Center>CLICK <a href="resume_carterLogan.docx" download> HERE<a> TO DOWNLOAD MY PROFESSIONAL RESUME!</center>
+
+
+
+<br><br><br><br><br><br>
+<hr width = 50%>
+<center>
+<a href ="https://www.facebook.com/logan.carter.165"target ="_blank"><img src = "facebook.png" width = "50" height = "50" hspace ="20" > </a>
+<a href ="https://www.instagram.com/logancarter48/?hl=en"target ="_blank"><img src = "instagram.png"width = "50" height = "50" hspace ="20"> </a>
+<a href ="https://www.linkedin.com/in/logan-carter-071309114/"target ="_blank"><img src = "linkedin.png"width = "50" height = "50" hspace ="20"> </a>
+</center>
+ 
+</div>
+<div id="Contact" class="tabcontent">
+<br>
+<h1 style = "margin-left: 200px"> Social Media Profiles </h1>
+
+
+
+<br> 
+<center>
+<table style="width:50%" border = "0">
+
+<tr height = "200">
+
+<td  align = "center"> <a href ="https://www.facebook.com/logan.carter.165"target ="_blank"><img src = "facebook.png" width = "200" height = "200" > </a> </td>
+<td align = "center"><a href ="https://www.instagram.com/logancarter48/?hl=en"target ="_blank"><img src = "instagram.png"width = "200" height = "200"> </a> </td>
+
+</tr>
+<tr height = "50">
+
+<td align = "center"><b>FACEBOOK PROFILE</b></td>
+<td align = "CENTER"><b>INSTAGRAM PROFILE</b></td>
+
+</tr>
+
+<tr height = "50">
+
+<td align = "center"> <a href ="https://www.linkedin.com/in/logan-carter-071309114/"target ="_blank"><img src = "linkedin.png"width = "200" height = "200"> </a> </td>
+<td align = "center"><a href ="https://plus.google.com/u/0/106637965202626681587" target ="_blank"><img src = "google.png" width = "200" height = "200" > </a> </td>
+
+</tr>
+
+<tr height = "50">
+
+<td align = "center"><b>LINKEDIN PROFILE</b></td>
+<td align = "CENTER"><b>GOOGLE+ PROFILE</b></td>
+
+</tr>
+</table>
+</center>
+<br>
+<h1 style = "margin-left: 200px"> Email: logancarter48@gmail.com </h1>
+
+<br><br><br><br><br><br><br><br><br><br><br>
+<hr width = 50%>
+<center>
+<a href ="https://www.facebook.com/logan.carter.165"target ="_blank"><img src = "facebook.png" width = "50" height = "50" hspace ="20" > </a>
+<a href ="https://www.instagram.com/logancarter48/?hl=en"target ="_blank"><img src = "instagram.png"width = "50" height = "50" hspace ="20"> </a>
+<a href ="https://www.linkedin.com/in/logan-carter-071309114/"target ="_blank"><img src = "linkedin.png"width = "50" height = "50" hspace ="20"> </a>
+</center>
+</div>
+
+
+</html>
